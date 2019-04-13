@@ -60,6 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_toEndOf="@+id/hospitals_nearby"
+            android:onClick="onClick"
             android:src="@mipmap/school"/>
         <ImageButton
             android:id="@+id/restaurants_nearby"
@@ -67,6 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_toEndOf="@+id/school_nearby"
+            android:onClick="onClick"
             android:src="@mipmap/restaurant"/>
 
     </RelativeLayout>
